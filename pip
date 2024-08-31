@@ -1,0 +1,42 @@
+while True :
+    input_nama = input ("Nama panjang di KATEPE: ")
+    if input_nama == 'Anastasya Putri Taruk':
+        print ("OMG I FOUND U PUTE!!! HAI!!!")
+        print ()
+    else :
+        print ("sorry ini bukan buat eloooh")
+        print ()
+        continue
+    
+    while True :    
+        ulang_tahun = input ("Kapan u ultah?(tanggal bulan aj)")
+        if ulang_tahun == "21 Agustus":
+            print ("YEAAS 10 HARI LALU WKWKWKW KAN")
+            print ()
+        else : 
+            print ("Ultah sendiri masa gatau. KOCAK. YG BNR !!!")
+            print ()
+            continue
+        
+        while True : 
+            print ("clue passw nama panjang temen km yg sigma ini")      
+            passw = input ("Password juseyo:")
+            
+            if passw == "Raida Khoyyara":
+                print ("PUTEEE SELAMAT ULANG TAHUN YA TEMAN BAIKU SEMOGA SEHAT SELALU MAKIN CANTIK MAKIN SUKSES, SEMOGA KITA SELALU BERTEMAN PLS LOVE U. MAAF AKU KMRN SEMPET LUPA NGUCAPIN DAN MAAF KALO KM MERASA TIDAK DIRAYAKAN HUHU")
+                print ("Nih lope")
+                for y in range(6):
+                    for x in range(7):
+                        if (x - 1)**2 + (y - 1)**2 <= 1 or (x - 5)**2 + (y - 1)**2 <= 1 or (y - 3)**2 + (x - 3)**2 <= 3:
+                            print("*", end=" ")
+                        else:
+                            print(" ", end=" ")
+                    print()
+                break
+            else :
+                print ("masa iyh salah??")
+                print()
+                continue
+        break
+    break
+
